@@ -19,8 +19,6 @@ namespace TABPAGE
         public Form1()
         {
             InitializeComponent();
-            
-
         }
 
         //private void form1ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -72,7 +70,6 @@ namespace TABPAGE
             tclBody.Controls.Add(tabPage);
             tclBody.SelectedTab = tabPage;
             childForm.Show();
-            
         }
 
         private void button1_Click(object sender, EventArgs e)

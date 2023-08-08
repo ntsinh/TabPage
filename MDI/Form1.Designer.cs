@@ -45,7 +45,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 384);
+            this.panel1.Size = new System.Drawing.Size(200, 426);
             this.panel1.TabIndex = 2;
             // 
             // button3
@@ -86,7 +86,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 40);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Danh sách sản phẩm";
+            this.button1.Text = "Cán Bộ Nhân Viên";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -98,7 +98,7 @@
             this.tclBody.Location = new System.Drawing.Point(200, 0);
             this.tclBody.Name = "tclBody";
             this.tclBody.SelectedIndex = 0;
-            this.tclBody.Size = new System.Drawing.Size(479, 384);
+            this.tclBody.Size = new System.Drawing.Size(590, 426);
             this.tclBody.TabIndex = 6;
             this.tclBody.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.tclBody_DrawItem);
             this.tclBody.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tclBody_MouseClick);
@@ -108,7 +108,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(679, 384);
+            this.ClientSize = new System.Drawing.Size(790, 426);
             this.Controls.Add(this.tclBody);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.SystemColors.Control;
